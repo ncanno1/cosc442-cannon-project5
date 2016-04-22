@@ -385,12 +385,12 @@ public class WMethod{
      // Utilities.runFSM(FSM, 1, "a a b a b", " ");
      
      for(int i = 0; i < tests.size(); i++){
-    	 System.out.println("public void testCase" + i + "() {");
+    	 System.out.println("@Test\npublic void testCase" + i + "() {");
     	 if (Utilities.runFSM(FSM, startState, tests.get(i).replace("", " ").trim(), " "))
-    		 System.out.println("\tassertTrue(bondRegex(\""+tests.get(i)+"\")");
+    		 System.out.println("\tassertTrue(jb.bondRegex(\""+tests.get(i)+"\"));");
     	 else
-    		 System.out.println("\tassertFalse(bondRegex(\""+tests.get(i)+"\")");
-    	 System.out.println("}");
+    		 System.out.println("\tassertFalse(jb.bondRegex(\""+tests.get(i)+"\"));");
+    	 System.out.println("}\n");
      }
      
    }// End of main()
