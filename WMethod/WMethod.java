@@ -383,8 +383,14 @@ public class WMethod{
      
      // Example use of the Utilities.runFSM() method
      // Utilities.runFSM(FSM, 1, "a a b a b", " ");
+     
      for(int i = 0; i < tests.size(); i++){
-         Utilities.runFSM(FSM, startState, tests.get(i).replace("", " ").trim(), " ");
+    	 System.out.println("public void testCase" + i + "() {");
+    	 if (Utilities.runFSM(FSM, startState, tests.get(i).replace("", " ").trim(), " "))
+    		 System.out.println("\tassertTrue(bondRegex(\""+tests.get(i)+"\")");
+    	 else
+    		 System.out.println("\tassertFalse(bondRegex(\""+tests.get(i)+"\")");
+    	 System.out.println("}");
      }
      
    }// End of main()
