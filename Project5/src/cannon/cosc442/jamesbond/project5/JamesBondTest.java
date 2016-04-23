@@ -95,7 +95,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase16() {
-		assertFalse(jb.bondRegex("(0(007)"));
+		assertTrue(jb.bondRegex("(0(007)"));
 	}
 
 	@Test
@@ -125,7 +125,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase22() {
-		assertFalse(jb.bondRegex("(0)007)"));
+		assertTrue(jb.bondRegex("(0)007)"));
 	}
 
 	@Test
@@ -155,7 +155,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase28() {
-		assertFalse(jb.bondRegex("(00(007)"));
+		assertTrue(jb.bondRegex("(00(007)"));
 	}
 
 	@Test
@@ -185,7 +185,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase34() {
-		assertFalse(jb.bondRegex("(00)007)"));
+		assertTrue(jb.bondRegex("(00)007)"));
 	}
 
 	@Test
@@ -210,17 +210,17 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase39() {
-		assertFalse(jb.bondRegex("(000007)"));
+		assertTrue(jb.bondRegex("(000007)"));
 	}
 
 	@Test
 	public void testCase40() {
-		assertFalse(jb.bondRegex("(00007)"));
+		assertTrue(jb.bondRegex("(00007)"));
 	}
 
 	@Test
 	public void testCase41() {
-		assertFalse(jb.bondRegex("(0007)"));
+		assertTrue(jb.bondRegex("(0007)"));
 	}
 
 	@Test
@@ -235,7 +235,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase44() {
-		assertFalse(jb.bondRegex("(001007)"));
+		assertTrue(jb.bondRegex("(001007)"));
 	}
 
 	@Test
@@ -260,7 +260,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase49() {
-		assertFalse(jb.bondRegex("(002007)"));
+		assertTrue(jb.bondRegex("(002007)"));
 	}
 
 	@Test
@@ -285,7 +285,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase54() {
-		assertFalse(jb.bondRegex("(003007)"));
+		assertTrue(jb.bondRegex("(003007)"));
 	}
 
 	@Test
@@ -310,7 +310,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase59() {
-		assertFalse(jb.bondRegex("(004007)"));
+		assertTrue(jb.bondRegex("(004007)"));
 	}
 
 	@Test
@@ -335,7 +335,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase64() {
-		assertFalse(jb.bondRegex("(005007)"));
+		assertTrue(jb.bondRegex("(005007)"));
 	}
 
 	@Test
@@ -360,7 +360,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase69() {
-		assertFalse(jb.bondRegex("(006007)"));
+		assertTrue(jb.bondRegex("(006007)"));
 	}
 
 	@Test
@@ -980,7 +980,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase193() {
-		assertFalse(jb.bondRegex("(008007)"));
+		assertTrue(jb.bondRegex("(008007)"));
 	}
 
 	@Test
@@ -1005,7 +1005,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase198() {
-		assertFalse(jb.bondRegex("(009007)"));
+		assertTrue(jb.bondRegex("(009007)"));
 	}
 
 	@Test
@@ -1030,7 +1030,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase203() {
-		assertFalse(jb.bondRegex("(01007)"));
+		assertTrue(jb.bondRegex("(01007)"));
 	}
 
 	@Test
@@ -1055,7 +1055,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase208() {
-		assertFalse(jb.bondRegex("(02007)"));
+		assertTrue(jb.bondRegex("(02007)"));
 	}
 
 	@Test
@@ -1080,7 +1080,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase213() {
-		assertFalse(jb.bondRegex("(03007)"));
+		assertTrue(jb.bondRegex("(03007)"));
 	}
 
 	@Test
@@ -1105,7 +1105,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase218() {
-		assertFalse(jb.bondRegex("(04007)"));
+		assertTrue(jb.bondRegex("(04007)"));
 	}
 
 	@Test
@@ -1130,7 +1130,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase223() {
-		assertFalse(jb.bondRegex("(05007)"));
+		assertTrue(jb.bondRegex("(05007)"));
 	}
 
 	@Test
@@ -1155,7 +1155,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase228() {
-		assertFalse(jb.bondRegex("(06007)"));
+		assertTrue(jb.bondRegex("(06007)"));
 	}
 
 	@Test
@@ -1180,7 +1180,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase233() {
-		assertFalse(jb.bondRegex("(07007)"));
+		assertTrue(jb.bondRegex("(07007)"));
 	}
 
 	@Test
@@ -1205,7 +1205,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase238() {
-		assertFalse(jb.bondRegex("(08007)"));
+		assertTrue(jb.bondRegex("(08007)"));
 	}
 
 	@Test
@@ -1230,7 +1230,7 @@ public class JamesBondTest {
 
 	@Test
 	public void testCase243() {
-		assertFalse(jb.bondRegex("(09007)"));
+		assertTrue(jb.bondRegex("(09007)"));
 	}
 
 	@Test
